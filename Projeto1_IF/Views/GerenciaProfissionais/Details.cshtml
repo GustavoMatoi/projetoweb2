@@ -1,0 +1,47 @@
+@model Projeto1_IF.Models.TbProfissional
+
+@{
+    ViewData["Title"] = "Detalhes do Profissional";
+}
+
+<h1>Detalhes do Profissional</h1>
+
+<dl class="row">
+    <dt class="col-sm-3">Nome</dt>
+    <dd class="col-sm-9">@Model.Nome</dd>
+
+    <dt class="col-sm-3">CPF</dt>
+    <dd class="col-sm-9">@Model.Cpf</dd>
+
+    <dt class="col-sm-3">CRM/CRN</dt>
+    <dd class="col-sm-9">@Model.CrmCrn</dd>
+
+    <dt class="col-sm-3">Especialidade</dt>
+    <dd class="col-sm-9">@Model.Especialidade</dd>
+
+    <dt class="col-sm-3">Endereço</dt>
+    <dd class="col-sm-9">@Model.Logradouro, @Model.Numero - @Model.Bairro</dd>
+
+    <dt class="col-sm-3">CEP</dt>
+    <dd class="col-sm-9">@Model.Cep</dd>
+
+    <dt class="col-sm-3">Cidade / UF</dt>
+    <dd class="col-sm-9">@Model.IdCidadeNavigation?.Nome / @Model.Estado</dd>
+
+    <dt class="col-sm-3">Telefone 1</dt>
+    <dd class="col-sm-9">(@Model.Ddd1) @Model.Telefone1</dd>
+
+    <dt class="col-sm-3">Telefone 2</dt>
+    <dd class="col-sm-9">(@Model.Ddd2) @Model.Telefone2</dd>
+
+    <dt class="col-sm-3">Salário</dt>
+    <dd class="col-sm-9">@Model.Salario?.ToString("C")</dd>
+
+    <dt class="col-sm-3">Contrato</dt>
+    <dd class="col-sm-9">@(Model.IdContratoNavigation != null ? "Contrato " + Model.IdContratoNavigation.IdContrato : "-")</dd>
+</dl>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.IdProfissional">Editar</a> |
+    <a asp-action="Index">Voltar</a>
+</div>

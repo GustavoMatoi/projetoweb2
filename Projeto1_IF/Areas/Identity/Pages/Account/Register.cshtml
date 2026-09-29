@@ -1,0 +1,154 @@
+@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h2>Create a new account.</h2>
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <label asp-for="Input.Email">Email</label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.Password">Password</label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.ConfirmPassword">Confirm Password</label>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+
+            <hr />
+            <h3>Dados do Profissional</h3>
+
+            <div class="form-floating mb-3">
+                <select asp-for="Input.TipoProfissional" class="form-select">
+                    <option value="">-- Selecione --</option>
+                    <option value="Medico">Médico</option>
+                    <option value="Nutricionista">Nutricionista</option>
+                </select>
+                <label asp-for="Input.TipoProfissional"></label>
+                <span asp-validation-for="Input.TipoProfissional" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Nome" class="form-control" />
+                <label asp-for="Input.Nome"></label>
+                <span asp-validation-for="Input.Nome" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Cpf" class="form-control" />
+                <label asp-for="Input.Cpf"></label>
+                <span asp-validation-for="Input.Cpf" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.CrmCrn" class="form-control" />
+                <label asp-for="Input.CrmCrn"></label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Especialidade" class="form-control" />
+                <label asp-for="Input.Especialidade"></label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <select asp-for="Input.IdCidade" asp-items="Model.Cidades" class="form-select">
+                    <option value="">-- Selecione a cidade --</option>
+                </select>
+                <label asp-for="Input.IdCidade"></label>
+                <span asp-validation-for="Input.IdCidade" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3">
+                <select asp-for="Input.IdContrato" asp-items="Model.Contratos" class="form-select">
+                    <option value="">-- Selecione o contrato --</option>
+                </select>
+                <label asp-for="Input.IdContrato"></label>
+                <span asp-validation-for="Input.IdContrato" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Logradouro" class="form-control" />
+                <label asp-for="Input.Logradouro"></label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Numero" class="form-control" />
+                <label asp-for="Input.Numero"></label>
+                <span asp-validation-for="Input.Numero" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Bairro" class="form-control" />
+                <label asp-for="Input.Bairro"></label>
+                <span asp-validation-for="Input.Bairro" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Cep" class="form-control" />
+                <label asp-for="Input.Cep"></label>
+                <span asp-validation-for="Input.Cep" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Telefone1" class="form-control" />
+                <label asp-for="Input.Telefone1"></label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Telefone2" class="form-control" />
+                <label asp-for="Input.Telefone2"></label>
+            </div>
+
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+        </form>
+    </div>
+    <div class="col-md-6 col-md-offset-2">
+        <section>
+            <h3>Use another service to register.</h3>
+            <hr />
+            @{
+                if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                {
+                    <div>
+                        <p>
+                            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">
+                                article
+                                about setting up this ASP.NET application to support logging in via external services
+                            </a>.
+                        </p>
+                    </div>
+                }
+                else
+                {
+                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                        <div>
+                            <p>
+                                @foreach (var provider in Model.ExternalLogins!)
+                                {
+                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                }
+                            </p>
+                        </div>
+                    </form>
+                }
+            }
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

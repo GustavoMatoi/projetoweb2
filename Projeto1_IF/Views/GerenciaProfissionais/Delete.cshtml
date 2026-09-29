@@ -1,0 +1,46 @@
+@model Projeto1_IF.Models.TbProfissional
+
+@{
+    ViewData["Title"] = "Excluir Profissional";
+    bool temPacientes = ViewBag.TemPacientesVinculados == true;
+}
+
+<h1>Excluir Profissional</h1>
+
+@if (temPacientes)
+{
+    <div class="alert alert-danger">
+        Este profissional possui pacientes vinculados e não pode ser excluído.
+    </div>
+}
+else
+{
+    <h3>Tem certeza que deseja excluir este profissional?</h3>
+}
+
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<dl class="row">
+    <dt class="col-sm-3">Nome</dt>
+    <dd class="col-sm-9">@Model.Nome</dd>
+
+    <dt class="col-sm-3">CPF</dt>
+    <dd class="col-sm-9">@Model.Cpf</dd>
+
+    <dt class="col-sm-3">CRM/CRN</dt>
+    <dd class="col-sm-9">@Model.CrmCrn</dd>
+
+    <dt class="col-sm-3">Especialidade</dt>
+    <dd class="col-sm-9">@Model.Especialidade</dd>
+
+    <dt class="col-sm-3">Cidade</dt>
+    <dd class="col-sm-9">@Model.IdCidadeNavigation?.Nome</dd>
+</dl>
+
+<form asp-action="Delete" asp-route-id="@Model.IdProfissional" method="post">
+    @if (!temPacientes)
+    {
+        <input type="submit" value="Excluir" class="btn btn-danger" />
+    }
+    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+</form>

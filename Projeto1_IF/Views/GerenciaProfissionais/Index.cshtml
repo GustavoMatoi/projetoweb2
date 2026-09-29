@@ -1,0 +1,35 @@
+@model IEnumerable<Projeto1_IF.Models.TbProfissional>
+
+@{
+    ViewData["Title"] = "Gerência de Profissionais";
+}
+
+<h1>Gerência de Profissionais</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>CRM/CRN</th>
+            <th>Especialidade</th>
+            <th>Cidade</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nome</td>
+                <td>@item.CrmCrn</td>
+                <td>@item.Especialidade</td>
+                <td>@item.IdCidadeNavigation?.Nome</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.IdProfissional">Detalhes</a> |
+                    <a asp-action="Edit" asp-route-id="@item.IdProfissional">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdProfissional">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

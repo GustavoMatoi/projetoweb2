@@ -1,0 +1,102 @@
+@model Projeto1_IF.Models.TbProfissional
+
+@{
+    ViewData["Title"] = "Editar Meu Cadastro";
+}
+
+<h1>Editar Meu Cadastro</h1>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit" asp-route-idprofissional="@Model.IdProfissional" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>           
+            <input type="hidden" asp-for="IdProfissional" />
+
+            <div class="form-group mb-3">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-2">
+                <label class="control-label">CPF</label>
+                <input class="form-control" value="@Model.Cpf" readonly />
+                <input type="hidden" asp-for="Cpf" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="CrmCrn" class="control-label"></label>
+                <input asp-for="CrmCrn" class="form-control" />
+                <span asp-validation-for="CrmCrn" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Especialidade" class="control-label"></label>
+                <input asp-for="Especialidade" class="form-control" />
+                <span asp-validation-for="Especialidade" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Logradouro" class="control-label"></label>
+                <input asp-for="Logradouro" class="form-control" />
+                <span asp-validation-for="Logradouro" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Numero" class="control-label"></label>
+                <input asp-for="Numero" class="form-control" />
+                <span asp-validation-for="Numero" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Bairro" class="control-label"></label>
+                <input asp-for="Bairro" class="form-control" />
+                <span asp-validation-for="Bairro" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Cep" class="control-label"></label>
+                <input asp-for="Cep" class="form-control" />
+                <span asp-validation-for="Cep" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Ddd1" class="control-label"></label>
+                <input asp-for="Ddd1" class="form-control" />
+                <span asp-validation-for="Ddd1" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Ddd2" class="control-label"></label>
+                <input asp-for="Ddd2" class="form-control" />
+                <span asp-validation-for="Ddd2" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Telefone1" class="control-label"></label>
+                <input asp-for="Telefone1" class="form-control" />
+                <span asp-validation-for="Telefone1" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Telefone2" class="control-label"></label>
+                <input asp-for="Telefone2" class="form-control" />
+                <span asp-validation-for="Telefone2" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Details" asp-route-idprofissional="@Model.IdProfissional">Voltar</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,69 @@
+@model Projeto1_IF.Models.TbPaciente
+
+@{
+    ViewData["Title"] = "Detalhes do paciente";
+}
+
+<h1>Detalhes do paciente</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Nome)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(m => m.Nome)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Rg)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(m => m.Rg)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Cpf)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(m => m.Cpf)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.DataNascimento)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(m => m.DataNascimento)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.NomeResponsavel)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(m => m.NomeResponsavel)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Sexo)</dt>
+        <dd class="col-sm-9">
+            @(OpcoesPaciente.Sexos.TryGetValue(Model.Sexo, out var sexo) ? sexo : Model.Sexo)
+        </dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Etnia)</dt>
+        <dd class="col-sm-9">
+            @(OpcoesPaciente.Etnias.TryGetValue(Model.Etnia, out var etnia) ? etnia : Model.Etnia.ToString())
+        </dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Endereco)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(m => m.Endereco)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Bairro)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(m => m.Bairro)</dd>
+
+        <dt class="col-sm-3">Cidade</dt>
+        <dd class="col-sm-9">@Model.IdCidadeNavigation?.Nome</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.TelResidencial)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(m => m.TelResidencial)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.TelComercial)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(m => m.TelComercial)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.TelCelular)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(m => m.TelCelular)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Profissao)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(m => m.Profissao)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.FlgAtleta)</dt>
+        <dd class="col-sm-9">@(Model.FlgAtleta == true ? "Sim" : "Não")</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(m => m.FlgGestante)</dt>
+        <dd class="col-sm-9">@(Model.FlgGestante == true ? "Sim" : "Não")</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-idpaciente="@Model.IdPaciente" class="btn btn-primary">Editar</a>
+    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+</div>

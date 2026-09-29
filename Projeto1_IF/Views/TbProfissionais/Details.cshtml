@@ -1,0 +1,57 @@
+@model Projeto1_IF.Models.TbProfissional
+
+@{
+    ViewData["Title"] = "Meu Cadastro";
+}
+
+<h1>Meu Cadastro</h1>
+
+<div>
+    <h4>Dados do Profissional</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Nome</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Nome)</dd>
+
+        <dt class="col-sm-2">CPF</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Cpf)</dd>
+
+        <dt class="col-sm-2">CRM/CRN</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.CrmCrn)</dd>
+
+        <dt class="col-sm-2">Especialidade</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Especialidade)</dd>
+
+        <dt class="col-sm-2">Logradouro</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Logradouro)</dd>
+
+        <dt class="col-sm-2">Número</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Numero)</dd>
+
+        <dt class="col-sm-2">Bairro</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Bairro)</dd>
+
+        <dt class="col-sm-2">CEP</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Cep)</dd>
+
+        <dt class="col-sm-2">DDD 1 / Telefone 1</dt>
+        <dd class="col-sm-10">@Model.Ddd1 @Model.Telefone1</dd>
+
+        <dt class="col-sm-2">DDD 2 / Telefone 2</dt>
+        <dd class="col-sm-10">@Model.Ddd2 @Model.Telefone2</dd>
+
+        <dt class="col-sm-2">Cidade</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.IdCidadeNavigation.Nome)</dd>
+
+        <dt class="col-sm-2">Contrato</dt>
+        <dd class="col-sm-10">
+            @if (Model.IdContratoNavigation?.IdPlanoNavigation != null)
+            {
+                @Model.IdContratoNavigation.IdPlanoNavigation.Nome
+            }
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-idprofissional="@Model.IdProfissional">Editar meus dados</a>
+</div>

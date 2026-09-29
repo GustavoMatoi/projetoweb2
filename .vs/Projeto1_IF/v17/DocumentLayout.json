@@ -1,0 +1,875 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\tbprofissionais\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbprofissionais\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\controllers\\tbprofissionaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\controllers\\tbprofissionaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\controllers\\tbpacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\controllers\\tbpacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\controllers\\gerenciaprofissionaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\controllers\\gerenciaprofissionaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery333.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery333.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\tbprofissionais\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbprofissionais\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\gerenciaprofissionais\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\gerenciaprofissionais\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery111111.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery111111.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\gerenciaprofissionais\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\gerenciaprofissionais\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\gerenciaprofissionais\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\gerenciaprofissionais\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\projeto1_if.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\projeto1_if.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\tbpacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbpacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\tbpacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbpacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\tbpacientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbpacientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\tbpacientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbpacientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\tbpacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbpacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\views\\gerenciaprofissionais\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\gerenciaprofissionais\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\controllers\\tbalimentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\controllers\\tbalimentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery999.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery999.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\models\\opcoespaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\models\\opcoespaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery5.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery5.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\models\\tbreceitamedicapadrao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\models\\tbreceitamedicapadrao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery11.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery11.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\models\\tbprofissional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\models\\tbprofissional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\models\\tbtipoacesso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\models\\tbtipoacesso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\models\\projeto1_ifcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\models\\projeto1_ifcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\models\\tbalimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\models\\tbalimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\models\\tbplano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\models\\tbplano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|c:\\users\\gutei\\source\\repos\\projeto1_if\\projeto1_if\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9958CD57-695A-4C58-B657-ADE54591FBC9}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery111111.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery111111.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery111111.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery111111.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery333.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery333.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery333.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery333.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SQLQuery4.sql ",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery4.sql",
+              "RelativeDocumentMoniker": "SQLQuery4.sql",
+              "ToolTip": "SQLQuery4.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-29T19:48:35.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\TbProfissionais\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbProfissionais\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\TbProfissionais\\Edit.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\TbProfissionais\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-27T20:50:59.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GerenciaProfissionaisController.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Controllers\\GerenciaProfissionaisController.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Controllers\\GerenciaProfissionaisController.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Controllers\\GerenciaProfissionaisController.cs",
+              "RelativeToolTip": "Projeto1_IF\\Controllers\\GerenciaProfissionaisController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T22:34:26.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TbProfissionaisController.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Controllers\\TbProfissionaisController.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Controllers\\TbProfissionaisController.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Controllers\\TbProfissionaisController.cs",
+              "RelativeToolTip": "Projeto1_IF\\Controllers\\TbProfissionaisController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T20:52:48.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Program.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Program.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Program.cs",
+              "RelativeToolTip": "Projeto1_IF\\Program.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAACUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T23:13:54.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "2.sql ",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\2.sql",
+              "RelativeDocumentMoniker": "2.sql",
+              "ToolTip": "2.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-29T19:41:05.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Projeto1_IF\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T23:06:02.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\TbProfissionais\\Details.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbProfissionais\\Details.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\TbProfissionais\\Details.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\TbProfissionais\\Details.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvzgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-27T21:00:39.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TbPacientesController.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Controllers\\TbPacientesController.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Controllers\\TbPacientesController.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Controllers\\TbPacientesController.cs",
+              "RelativeToolTip": "Projeto1_IF\\Controllers\\TbPacientesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T16:36:55.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SQLQuery333.sql ",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery333.sql",
+              "RelativeDocumentMoniker": "SQLQuery333.sql",
+              "ToolTip": "SQLQuery333.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-29T19:44:48.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\GerenciaProfissionais\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\GerenciaProfissionais\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\GerenciaProfissionais\\Edit.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\GerenciaProfissionais\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T18:50:27.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\GerenciaProfissionais\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\GerenciaProfissionais\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\GerenciaProfissionais\\Delete.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\GerenciaProfissionais\\Delete.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T18:55:30.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SQLQuery111111.sql ",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery111111.sql",
+              "RelativeDocumentMoniker": "SQLQuery111111.sql",
+              "ToolTip": "SQLQuery111111.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-29T19:12:14.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\GerenciaProfissionais\\Index.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\GerenciaProfissionais\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\GerenciaProfissionais\\Index.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\GerenciaProfissionais\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T18:55:07.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Projeto1_IF.csproj",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Projeto1_IF.csproj",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Projeto1_IF.csproj",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Projeto1_IF.csproj",
+              "RelativeToolTip": "Projeto1_IF\\Projeto1_IF.csproj",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-29T23:12:40.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-29T23:07:54.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-29T23:07:52.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-29T23:07:58.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbPacientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Index.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\TbPacientes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-28T16:43:58.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-29T23:07:49.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "Projeto1_IF\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T14:15:13.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACMAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-29T23:06:43.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-29T23:07:47.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbPacientes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Edit.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\TbPacientes\\Edit.cshtml",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T18:55:51.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbPacientes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Delete.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\TbPacientes\\Delete.cshtml",
+              "ViewState": "AgIAANkAAAAAAAAAAAAAAOAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-28T16:56:19.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbPacientes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Create.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\TbPacientes\\Create.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAFEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-28T16:43:47.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\GerenciaProfissionais\\Details.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\GerenciaProfissionais\\Details.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\GerenciaProfissionais\\Details.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\GerenciaProfissionais\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T18:55:22.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Details.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbPacientes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Details.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\TbPacientes\\Details.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-28T16:55:45.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TbAlimentosController.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Controllers\\TbAlimentosController.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Controllers\\TbAlimentosController.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Controllers\\TbAlimentosController.cs",
+              "RelativeToolTip": "Projeto1_IF\\Controllers\\TbAlimentosController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T01:05:33.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "OpcoesPaciente.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\OpcoesPaciente.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Models\\OpcoesPaciente.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\OpcoesPaciente.cs",
+              "RelativeToolTip": "Projeto1_IF\\Models\\OpcoesPaciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T16:45:45.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SQLQuery999.sql",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery999.sql",
+              "RelativeDocumentMoniker": "SQLQuery999.sql",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery999.sql",
+              "RelativeToolTip": "SQLQuery999.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-29T15:14:21.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SQLQuery5.sql",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery5.sql",
+              "RelativeDocumentMoniker": "SQLQuery5.sql",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery5.sql",
+              "RelativeToolTip": "SQLQuery5.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-28T16:37:22.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TbReceitaMedicaPadrao.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\TbReceitaMedicaPadrao.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Models\\TbReceitaMedicaPadrao.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\TbReceitaMedicaPadrao.cs",
+              "RelativeToolTip": "Projeto1_IF\\Models\\TbReceitaMedicaPadrao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T22:30:17.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TbProfissional.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\TbProfissional.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Models\\TbProfissional.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\TbProfissional.cs",
+              "RelativeToolTip": "Projeto1_IF\\Models\\TbProfissional.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwHoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T19:23:01.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SQLQuery3.sql",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery3.sql",
+              "RelativeDocumentMoniker": "SQLQuery3.sql",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery3.sql",
+              "RelativeToolTip": "SQLQuery3.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-27T22:09:14.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TbTipoAcesso.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\TbTipoAcesso.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Models\\TbTipoAcesso.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\TbTipoAcesso.cs",
+              "RelativeToolTip": "Projeto1_IF\\Models\\TbTipoAcesso.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T22:30:03.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SQLQuery11.sql",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery11.sql",
+              "RelativeDocumentMoniker": "SQLQuery11.sql",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery11.sql",
+              "RelativeToolTip": "SQLQuery11.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-28T16:06:39.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SQLQuery2.sql",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery2.sql",
+              "RelativeDocumentMoniker": "SQLQuery2.sql",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery2.sql",
+              "RelativeToolTip": "SQLQuery2.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-27T19:59:29.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\appsettings.json",
+              "RelativeDocumentMoniker": "Projeto1_IF\\appsettings.json",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\appsettings.json",
+              "RelativeToolTip": "Projeto1_IF\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-27T19:10:20.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-27T20:34:54.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Projeto1_IFContext.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\Projeto1_IFContext.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Models\\Projeto1_IFContext.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\Projeto1_IFContext.cs",
+              "RelativeToolTip": "Projeto1_IF\\Models\\Projeto1_IFContext.cs",
+              "ViewState": "AgIAAJoBAAAAAAAAAAAwwKMBAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T19:15:41.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "TbPlano.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\TbPlano.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Models\\TbPlano.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\TbPlano.cs",
+              "RelativeToolTip": "Projeto1_IF\\Models\\TbPlano.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T19:40:03.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "TbAlimento.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\TbAlimento.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Models\\TbAlimento.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\TbAlimento.cs",
+              "RelativeToolTip": "Projeto1_IF\\Models\\TbAlimento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T19:52:48.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Projeto1_IF\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAAAA0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T19:22:32.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-27T19:22:19.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SQLQuery1.sql",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery1.sql",
+              "RelativeDocumentMoniker": "SQLQuery1.sql",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\SQLQuery1.sql",
+              "RelativeToolTip": "SQLQuery1.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-27T17:28:42.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Projeto1_IF\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-29T23:21:47.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "serviceDependencies.json",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Properties\\serviceDependencies.json",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Properties\\serviceDependencies.json",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Properties\\serviceDependencies.json",
+              "RelativeToolTip": "Projeto1_IF\\Properties\\serviceDependencies.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-30T00:59:19.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\gutei\\source\\repos\\Projeto1_IF\\Projeto1_IF\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Projeto1_IF\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T00:20:41.856Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

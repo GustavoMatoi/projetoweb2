@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Sistema de Profissionais de Saúde</h1>
+
+    @if (User.Identity != null && User.Identity.IsAuthenticated)
+    {
+        <p class="lead">Olá, @User.Identity.Name</p>
+
+        @if (User.IsInRole("GerenteMedico") || User.IsInRole("GerenteNutricionista") || User.IsInRole("GerenteGeral"))
+        {
+            <p>
+                <a class="btn btn-primary" asp-controller="GerenciaProfissionais" asp-action="Index">
+                    Gerenciar profissionais
+                </a>
+            </p>
+        }
+
+        @if (User.IsInRole("Medico") || User.IsInRole("Nutricionista"))
+        {
+            <p>
+                <a class="btn btn-primary" asp-controller="TbProfissionais" asp-action="Index">
+                    Meu perfil
+                </a>
+            </p>
+        }
+    }
+    else
+    {
+        <p>Faça login ou cadastre-se para continuar.</p>
+        <p>
+            <a class="btn btn-primary" asp-area="Identity" asp-page="/Account/Login">Entrar</a>
+            <a class="btn btn-outline-primary" asp-area="Identity" asp-page="/Account/Register">Cadastrar</a>
+            <a class="btn btn-primary" asp-controller="TbPacientes" asp-action="Index">Meus pacientes</a>
+        </p>
+    }
+</div>
